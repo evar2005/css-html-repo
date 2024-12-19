@@ -1,0 +1,42 @@
+.main{
+  /*background-image: url('image.png');*/
+  background-color: azure;
+  margin: 10px;
+  padding: 20px;
+}
+.main{
+  text-align: center;
+}
+.main > form .child-b{
+  margin-top: 15px;
+}
+.main > form .child-c{
+  margin-top: 15px;
+}
+.main > form .child-d{
+  margin-top: 15px;
+}
+.main > form .child-e{
+  margin-top: 15px;
+}
+.main > form .child-f{
+  margin-top: 15px;
+}
+.main > form .child-a{
+  margin-top: 15px;
+}
+.main > form .child-a button{
+  padding: 10px 10px;
+  background-color: coral;
+  border-radius: 10px;
+  color: azure;
+  cursor: pointer;
+  transition: 2s;
+}
+.main > form .child-a button:hover{
+  background-color: cornsilk;
+  color: black;
+}
+.main > form .child-c .small{
+  transition: 3s;
+}

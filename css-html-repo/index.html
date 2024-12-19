@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Html Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="main">
+    <h2>Application from</h2>
+    <form action="">
+      <div class="Child">
+        <label for="fname" class="">First Name:
+          <input type="text" name="fname" id="fname">
+        </label>
+        <label for="lname" class="">Last Name:
+          <input type="text" name="lname" id="lname">
+        </label>
+      </div>
+      <div class="child-b">
+        <label for="dob">Date of Birth:
+          <input type="text" name="dob" id="dob" placeholder="mm/dd/yy">
+        </label>
+        <label for="age">Age:
+          <input type="text" name="age" id="age">
+        </label>
+      </div>
+      <div class="child-c">
+        <label for="gender" class="small">Gender:
+          <select name="gender" id="gender">
+            <option value="male" selected>Male</option>
+            <option value="female">Female</option>
+            <option value="none">None</option>
+          </select>
+        </label>
+        <label for="email">Email Address:
+          <input type="text" name="email" id="email" placeholder="enter your email">
+        </label>
+      </div>
+      <div class="child-d">
+       <label for="Positions">Position Available:</label>
+       <input type="radio" name="Positions" id="Positions" value="Junior Devoloper">Junior Devoloper
+       <input type="radio" name="Positions" id="Positions" value="Mid-level Devoloper">Mid-level Devoloper
+       <input type="radio" name="Positions" id="Positions" value="Senior Devoloper">Senior Devoloper
+      </div>
+      <div class="child-e">
+        <label for="languages">Programming Language:</label>
+        <input type="checkbox" name="languages" id="languages" value="Java">Java
+        <input type="checkbox" name="languages" id="languages" value="Python">Python
+        <input type="checkbox" name="languages" id="languages" value="PHP">PHP
+      </div>
+      <div class="child-f">
+        <label for="pword">Password:
+          <input type="text" name="pword" id="pword">
+        </label>
+        <label for="cpword">Confirm Password:
+          <input type="text" name="cpword" id="cpword">
+        </label>
+      </div>
+      <div class="child-a">
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>
